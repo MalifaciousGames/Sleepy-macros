@@ -5,7 +5,7 @@ A replacement for the native `<<choice>>` macro which runs code and appends cont
 &nbsp;
 
 ### Default behavior:
-Clicking a link produced by the `<<select>>` macro replaces the link with its contents. It then removes all other links in the same group. The default group is 'default' but you can optionally specify a group as a second argument. Links in a group only remove other links in the same group as itself.
+Clicking a link produced by the `<<select>>` macro replaces the link with its contents. It then removes all other links in the same group. The default group is 'default' but you can optionally specify a group as a second argument. Links in a group only remove other links in the same group as itself. The links do not need to be next to each other. Any content between links will not be affected.
 
 ### Usage:
 ```html
