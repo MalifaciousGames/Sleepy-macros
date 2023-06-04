@@ -19,3 +19,10 @@ Clicking a link produced by the <<select>> macro replaces the link with its cont
     You turned right.
 <</select>>
 ```
+
+```html
+<<times 5 '_var'>>
+	_var : <<= setup.item.name>>
+	<<set $inventory.push(setup.item)>>
+<</times>>
+```
