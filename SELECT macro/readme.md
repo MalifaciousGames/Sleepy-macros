@@ -13,7 +13,7 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
     ...link content here
 <</select>>
 <!-- link text MUST be specified
-     optional_group is ooptional
+     optional_group is optional
           default is 'default'
           ONLY valid CSS characters accepted
           MUST be one one word -->
