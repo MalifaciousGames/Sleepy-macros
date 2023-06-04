@@ -14,7 +14,7 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
 <</select>>
 <!-- link text MUST be specified
      optional_group is optional
-          default is 'default'
+          default is 'default' when not specified
           ONLY valid CSS characters accepted
           MUST be one one word -->
 ```
