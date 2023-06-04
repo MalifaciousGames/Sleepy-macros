@@ -26,3 +26,4 @@ Clicking a link produced by the <<select>> macro replaces the link with its cont
 	<<set $inventory.push(setup.item)>>
 <</times>>
 ```
+
