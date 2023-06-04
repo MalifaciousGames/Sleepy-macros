@@ -12,4 +12,5 @@ Clicking a link produced by the <<select>> macro replaces the link with its cont
 <</select>>
 <<select 'Turn right'>>
     You turned right.
-<</select>>```
+<</select>>
+```
