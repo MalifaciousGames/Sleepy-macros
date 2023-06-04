@@ -12,8 +12,11 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
 <<select 'link text here' 'optional_group'>>
     ...link content here
 <</select>>
-<!-- Link text MUST be specified.
-     optional_group is optional, defaults to 'default'. Only valid CSS characters accepted. -->
+<!-- link text MUST be specified
+     optional_group is ooptional
+          default is 'default'
+          ONLY valid CSS characters accepted
+          MUST be one one word -->
 ```
     
 &nbsp;    
@@ -21,7 +24,7 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
 ### Examples:
 ```html
 :: Example_1
-<!-- Selecting any one of these will remove the rest -->
+<!-- selecting any one of these will remove the rest -->
 
 <<select 'Take the left path.'>>
     You turned left.
@@ -36,10 +39,10 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
 
 
 :: Example_2
-<!-- Selecting the 1st or 2nd link will remove ONLY the first two links,
-     Selecting the 3rd or 4th link will remove ONLY the latter two links -->
+<!-- selecting the 1st or 2nd link will remove ONLY the first two links,
+     selecting the 3rd or 4th link will remove ONLY the latter two links -->
 
-<!-- Entree selection -->
+<!-- entree selection -->
 <<select 'Order a burger.' 'entree'>>
     A savory burger. Normal, but delicious.
 <</select>>
@@ -47,7 +50,7 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
     A dry steak. Expensive because it wasn't you who cooked it.
 <</select>>
 
-<!-- Dessert selection -->
+<!-- dessert selection -->
 <<select 'Order a crème brûlée.' 'dessert'>>
     The thing you can't even spell properly. It was yummy nonetheless.
 <</select>>
