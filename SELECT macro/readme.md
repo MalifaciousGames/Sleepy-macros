@@ -15,8 +15,9 @@ Clicking a link produced by the `<<select>>` macro replaces the link with its co
 <!-- link text MUST be specified
      optional_group is optional
           default is 'default' when not specified
-          ONLY valid CSS characters accepted
-          MUST be one one word -->
+          MUST be one word, no spaces
+          ONLY valid CSS characters accepted -->
+          
 ```
     
 &nbsp;    
