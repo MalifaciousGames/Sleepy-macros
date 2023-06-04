@@ -1,6 +1,6 @@
 # SELECT Macro
 
-A replacement for the native `<<choice>>` macro which runs code and appends content instead of navigating to passages.
+An alternative for the native `<<choice>>` macro which runs code and appends content instead of navigating to passages.
 
 &nbsp;
 
